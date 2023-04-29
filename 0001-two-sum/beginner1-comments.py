@@ -8,5 +8,7 @@ def twoSum(nums, target):
         # if a difference is found in prevMap, then immediately return result
         if diff in prevMap:
             return [prevMap[diff], i]
-        # if we reach here, that means that difference was not in prevMap. So we can put it in prevMap. If not we have a big problem. 
+        
+        # If we reach here, that means that difference was not in prevMap. 
+        # So we can put it in prevMap. If not we have a big problem. 
         prevMap[n] = i
