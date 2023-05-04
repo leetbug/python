@@ -1,5 +1,6 @@
 # This is a test
 
+<p>
 <details>
 
 <summary>Tips for collapsed sections</summary>
@@ -16,7 +17,7 @@ def add (a,b):
 ```
 
 </details>
-
+</p>
 
 
 ```
