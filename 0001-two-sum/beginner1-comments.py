@@ -1,11 +1,8 @@
 def twoSum(nums, target):
-    # Store differences in a dictionary
-    prevMap = {}
+    prevMap = {} # Store differences in a dictionary
 
-    # Loop through array
-    for i, n in enumerate(nums):
-        # Calculate target - current. This is the difference
-        diff = target - n
+    for i, n in enumerate(nums): # Loop through array
+        diff = target - n # The difference is what we need to find. 
         
         # If a difference is found in prevMap, then
         # then return result 
