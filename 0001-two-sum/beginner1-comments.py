@@ -1,6 +1,7 @@
  
 def twoSum(nums, target):
-    prevMap = {} # Store differences in a dictionary
+    
+  prevMap = {} # Store differences in a dictionary
 
     for i, n in enumerate(nums): # Loop through array
         diff = target - n # The difference is what we need to find. 
