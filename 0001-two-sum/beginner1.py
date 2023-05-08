@@ -1,4 +1,4 @@
-        def twoSum(nums, target):
+       def twoSum(nums, target):
             prevMap = {}
 
             for i, n in enumerate(nums):
