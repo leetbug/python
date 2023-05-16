@@ -1,10 +1,8 @@
  
-def twoSum(nums, target):
-    prevMap = {}
-
-    for i, n in enumerate(nums):
-        diff = target - n
-        if diff in prevMap:
-            return [prevMap[diff], i]
-
-        prevMap[n] = i
+function MyComponent() {
+  return (
+    <main>
+      <h1 className="purple-text">Purple Heading!</h1>
+    </main>
+  );
+}
